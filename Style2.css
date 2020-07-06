@@ -1,0 +1,113 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-image: url(Stock/image4.jpeg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+.navbar-brand{
+  margin-left: 25%;
+  text-align: right;
+  font-family:'Pacifico';
+  font-size: 28px;
+  color:lightcoral !important;
+}
+.navbar-brand2{
+  text-align: right;
+  font-family:'Pacifico';
+  font-size: 21px;
+  color:lightcoral !important;
+}
+
+.myButton {
+  margin-left: 15px;
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Pacifico';
+	font-size:16px;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#8bffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0,.7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+.box h2{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}
+.box .inputBox{
+  position: relative;
+}
+.box .inputBox input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.box .inputBox label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+  top:-18px;
+  left:0;
+  color:#03a9f4;
+  font-size: 12px;
+}
+.box input[type="submit"]
+{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.box input[type="submit"]:hover{
+  color:white;
+  background-color: #00e8e8;
+}

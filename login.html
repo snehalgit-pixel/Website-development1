@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title> Log In or Sign Up</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+
+      <link rel="stylesheet" href="Style2.css">
+      <script src="https://use.fontawesome.com/6bb40d6e3c.js"></script>
+    </head>
+      <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <a class="navbar-brand"><span style="color:#5a3f11">New user? Sign up to be a Special Customer </span> <a href="signup.html" target="_new" class="myButton">Sign up</a></a>
+            </nav>
+         </header>
+        <main>
+         <div class="container-fluid p-0">
+        <div class="box">
+          <h2><i class="fa fa-user-circle-o fa-3x m-2" aria-hidden="true"></i><br>Log In</h2>
+          <form action="login_insert.php" method="POST">
+            <div class="inputBox">
+              <input type="text" name="username" required="">
+              <label>Username</label>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="password" required="">
+                <label>Password</label>
+              </div>
+              <input type="submit" name="" value="Log In">
+            </form>
+            </div>
+          </div>
+        </main>
+        </body>
+</html>
