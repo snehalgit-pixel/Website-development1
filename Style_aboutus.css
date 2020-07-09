@@ -1,0 +1,73 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand{
+  font-family:'Pacifico';
+  font-size: 35px;
+  color:lightcoral ;
+}
+.brand{
+  font-family: 'Pacifico',sans-serif;
+  color: #5a3f11;
+  font-size: 35px;
+}
+.profbrand{
+  margin-left: 21%;
+  text-align: center;
+  font-family: 'Pacifico',sans-serif;
+  color: #5a3f11;
+  font-size: 35px;
+}
+.topbox{
+  background-image: url('Stock/image43.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading1{
+  margin-top: 38%;
+  margin-bottom: 45%;
+  font-size: 42px;
+  margin-left: 3%;
+  text-align: left;
+  font-family: 'Righteous',sans-serif;
+  color: #231903;
+}
+.middlebox{
+  padding: 2%;
+  margin: 1%;
+}
+.heading2{
+  color: #fff;
+  text-align: center;
+  font-family: 'Righteous', sans-serif;
+  font-size: 38px;
+  margin: 0.5%;
+}
+.lowerbox{
+  padding: 2%;
+  margin: 1%;
+}
+.clientimage{
+  width: 100%;
+  height: 19rem;
+  border-radius: 100%;
+  margin-top: 1.4%;
+  margin-bottom: 1.4%;
+}
+.middlebox2{
+  padding: 2%;
+  margin: 1%;
+}
+.heading3{
+  color: #231903;
+  text-align: center;
+  font-family: 'Righteous', sans-serif;
+  font-size: 38px;
+  margin: 0.5%;
+}
+.card{
+  width:20rem;
+  position: relative;
+  z-index: 1;
+}
