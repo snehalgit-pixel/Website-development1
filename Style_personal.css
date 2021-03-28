@@ -1,0 +1,116 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.profspace{
+  background-image: url('Stock/image33.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.brand{
+  font-family: 'Pacifico',sans-serif;
+  color: #5a3f11;
+  font-size: 35px;
+}
+.profbrand{
+  margin-left: 21%;
+  text-align: center;
+  font-family: 'Pacifico',sans-serif;
+  color: #5a3f11;
+  font-size: 35px;
+}
+.heading1{
+  margin-top: 12%;
+  margin-bottom: 46%;
+  font-size: 42px;
+  margin-left: 3%;
+  text-align: left;
+  font-family: 'Righteous',sans-serif;
+  color: #fff;
+}
+.middlebox{
+  padding: 3%;
+  margin: 1%;
+}
+.profmenu{
+  text-align: center;
+  color: #5a3f11;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 18px;
+  padding: 0.5%;
+}
+.profmenu:hover{
+  background-color: black;
+  font-size: 20px;
+  color: #4cd3c2;
+}
+#carouselExampleIndicators{
+  text-align: center;
+  background-color: white;
+  color: #fff;
+}
+.carousel-item{
+  padding: 2% 1%;
+  height: 30%;
+  width: 78%;
+}
+.carousel-control-prev{
+  left:0;
+}
+.carousel-control-next,
+.carousel-control-prev {
+     position: absolute;
+     top:0;
+     bottom:0;
+     justify-content: center;
+    /* -webkit-box-align: center;*/
+     /*-webkit-box-pack: center;*/
+     display: flex;
+     align-items: center;
+     text-align: center;
+     opacity: 0.5;
+}
+
+.lowerbox{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+.skill-row{
+  width: 100%;
+  margin: 2% auto 6% auto;
+  text-align: left;
+  line-height: 1.75;
+}
+.para-1{
+  color: white;
+  font-family: 'Ubuntu',sans-serif;
+}
+.adimage1{
+  width: 18%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.second-row{
+  width: 100%;
+  margin: 6% auto 10% auto;
+  text-align: left;
+  line-height: 1.75;
+}
+.adimage2{
+  width: 18%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.social i{
+  color:#05dfd7;
+  font-size:20px;
+}
